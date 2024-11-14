@@ -12,7 +12,6 @@ function PlantCard({plant}) {
  
   return (
     <li className="card">
-      
                 <img src={plant.image} className="card-img-top" alt={plant.name} />
          <h5 className="p-2">{`Name: ${plant.name}`}</h5>
           <h5 className="p-2">{`Price: ${plant.price}`}</h5>
