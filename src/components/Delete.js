@@ -4,7 +4,7 @@ import React from "react";
 export default function Delete({plant}){
     
   function handleDelete(){
-    fetch (`http://localhost:6001/plants/${plant.id}`,{
+    fetch (`https://react-hooks-cc-plantshop-0659.onrender.com/plants/${plant.id}`,{
         method:"DELETE"
     })}
   return (

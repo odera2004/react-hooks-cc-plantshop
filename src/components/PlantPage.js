@@ -13,7 +13,7 @@ function PlantPage() {
   }
   const plantFilter= plants.filter((plant)=> plant.name.toLowerCase().includes(search.toLowerCase()));
   useEffect(() => {
-    fetch('http://localhost:6001/plants')
+    fetch('https://react-hooks-cc-plantshop-0659.onrender.com/plants')
       .then((response) => response.json())
       .then((data) => {
         setPlants(data);
